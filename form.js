@@ -39,7 +39,7 @@ async function html(request)
   response = await fetch('https://golf-leaderboard-data.p.rapidapi.com/entry-list/456',{
         method:'GET',
         headers:{
-          'x-rapidapi-key': 'f7303183b4msh976975616112c60p1e46bdjsn164a494b7c2c',
+          'x-rapidapi-key': 'KEY',
 	        'x-rapidapi-host': 'golf-leaderboard-data.p.rapidapi.com'  
         }
     })
